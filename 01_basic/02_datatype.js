@@ -27,4 +27,10 @@ let ArrayJi = ["ram", 2, true, undefined, null]
 
 console.log(typeof(ArrayJi[0]));
 
+let fruits = {
+
+}
+
+
+
 
