@@ -23,29 +23,8 @@
 // Object
 // Funtion
 
-// let newArray = ["Ram", "Shyam", "Bhagwan"];
-// // console.log(newArray[1])
-// // console.log(newArray.length)
-// console.log(newArray[2].length)
+let ArrayJi = ["ram", 2, true, undefined, null]
 
-// let newObject = {
-//     name: "somil",
-//     designation: "developer",
-//     Location: "gurugram"
-// }
-// console.log(newObject)
-// console.log(typeof(newObject))
-// console.log(newObject.name)
-
-function user(name, email, password){
-    this.name = name;
-    this.email = email;
-    this.password = password;
-}
-const userOne = new user("Somil", "somil@gmail.com", "1234")
-
-console.log(userOne)
-
-
+console.log(typeof(ArrayJi[0]));
 
 
