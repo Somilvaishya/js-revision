@@ -56,16 +56,34 @@ let str3 = str1 + str2;
 let x = 3;
 const y = x++;
 
-console.log(`x:${x}, y:${y}`);
+// console.log(`x:${x}, y:${y}`);
 // Expected output: "x:4, y:3"
 
 let a = 3;
 const b = ++a;
 
-console.log(`a:${a}, b:${b}`);
+// console.log(`a:${a}, b:${b}`);
 // Expected output: "a:4, b:4"
 
 
+
+
+
+let str4 = "1,2,3";
+let arr2 = str4.split(","); 
+
+let arr = [1, 2, 3];
+let strArr = arr.toString(); // "1,2,3"
+let strArr2 = arr.join("-"); // "1-2-3"
+
+// console.table([arr2, strArr, strArr2 ]);
+
+
+let jsonString = '{"name":"Alice","age":25}';
+let obj2 = JSON.parse(jsonString); // { name: "Alice", age: 25 }
+
+
+console.log(obj2);
 
 
 
