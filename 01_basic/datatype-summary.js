@@ -27,3 +27,33 @@ let obj ={
 }
 
 
+// memory stack and heap
+
+let myName = "harsh";
+
+// let myAnothername = "somil";
+
+let anotherName = myName;
+
+anotherName ="somil";
+// console.log(anotherName);
+// console.log(myName);
+
+let mySkills ={
+    js: 8,
+    python:4,
+    html:9
+}
+
+
+let anotherSkill = mySkills;
+console.log(anotherSkill);
+
+mySkills.js= 10;
+
+console.log(mySkills);
+console.log(anotherSkill);
+
+
+
+
