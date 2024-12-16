@@ -34,4 +34,10 @@ console.log(url.includes('sundar'))
 
 console.log(gameName.split('-'));
 
+console.log(url.replace('%20', '-'))
+
+console.log(url.includes('sundar'))
+
+console.log(gameName.split('-'));
+
 
